@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Сергей К.",
+    role: "Маркетолог, малый бизнес",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Раньше платил отдельно за ChatGPT и Claude. Теперь всё в одном месте и вдвое дешевле. Экономия 4000 рублей в месяц!",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Анастасия М.",
+    role: "Копирайтер-фрилансер",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Удобно сравнивать ответы разных моделей прямо в одном окне. Производительность выросла — теперь успеваю в два раза больше задач.",
+  },
+  {
+    name: "Дмитрий Р.",
+    role: "Разработчик, стартап",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Подключил API к своему боту за час. Один ключ — доступ ко всем моделям. Именно то, что нужно было для нашего проекта.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Что говорят пользователи</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Тысячи специалистов уже работают с нейросетями через Neural Hub
           </p>
         </div>
 
